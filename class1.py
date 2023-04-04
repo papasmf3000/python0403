@@ -15,5 +15,10 @@ p2.name = "전우치"
 p1.print() 
 p2.print() 
 
+#런타임에 변수추가
+Person.title = "new title"
+print( p1.title )
+print( p2.title )
+print( Person.title )
 
 
