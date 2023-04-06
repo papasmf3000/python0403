@@ -4,6 +4,7 @@ import requests
 #크롤링
 from bs4 import BeautifulSoup
  
+ 
 url = "https://www.daangn.com/"
 response = requests.get(url)
 #검색이 용이한 객체 생성
